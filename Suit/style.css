@@ -1,0 +1,68 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.conten {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  background-color:blue;
+  height: 150px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.your, .bot {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+
+.hasil {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  text-align: center;
+  top: 80px;
+  right: auto;
+}
+
+
+#btn {
+  height: 20px;
+  width: 70px;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: black;
+  position: absolute;
+  right: 20px;
+  top: 100px;
+}
+
+.crad {
+  display: flex;
+  justify-content: center;
+}
+
+.crad span{
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
+  height: 50px;
+  width: 100px;
+  background-color: aqua;
+  font-size: 10px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+p {
+  margin: 20px;
+}
