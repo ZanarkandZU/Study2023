@@ -1,0 +1,49 @@
+body {
+  background-color: #e59c10;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  background-color: white;
+  margin: 100px auto;
+  height: 340px;
+  width: auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px 10px 3px #eaeaea;
+}
+
+#conten-text {
+  width: auto;
+  height: 290px;
+  outline: none;
+  padding: 5px;
+}
+
+.btn{
+  display: flex;
+  gap: 5px;
+  margin: 5px;
+}
+
+#btn,
+#btnc {
+  height: 34px;
+  width: 297px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: darkblue;
+  color: white;
+}
+
+
+span {
+  color: orange;
+  position: fixed;
+  right: 10px;
+  bottom: 260px;
+  font-size: 10px;
+  font-weight: 700;
+}
