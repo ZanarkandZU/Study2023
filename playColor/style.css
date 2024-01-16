@@ -1,0 +1,36 @@
+body {
+  background-color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: darkorange;
+}
+
+.card {
+  height: 200px;
+  width: 200px;
+  margin: 50px auto;
+  transition: all 0.3s;
+  border-radius: 5px;
+  background-color: black;
+}
+
+input {
+  height: 3px;
+  width: 300px;
+  margin: 10px;
+}
+
+button {
+  height: 30px;
+  border: none;
+  margin: 10px;
+  border-radius: 5px;
+}
