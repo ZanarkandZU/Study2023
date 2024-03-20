@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "nama": "Kursi Spons",
+    "harga": 12000,
+    "img": "/img1.jpg"
+  },
+  
+  {
+    "id": 2,
+    "nama": "Kursi K",
+    "harga": 15000,
+    "img": "/img2.jpg"
+  },
+  
+  {
+    "id": 3,
+    "nama": "Kursi Viroft",
+    "harga": 100000,
+    "img": "/img3.jpg"
+  },
+  
+  {
+    "id": 4,
+    "nama": "Kursi Duduk",
+    "harga": 10400,
+    "img": "/img4.jpg"
+  },
+  
+  {
+    "id": 5,
+    "nama": "Kursi Kayu",
+    "harga": 1000,
+    "img": "/img5.jpg"
+  },
+  
+  {
+    "id": 6,
+    "nama": "Kursi Baja",
+    "harga": 120000,
+    "img": "/img6.jpg"
+  },
+  
+  {
+    "id": 7,
+    "nama": "Kursi Anak",
+    "harga": 120000,
+    "img": "/img7.jpg"
+  },
+  
+  {
+    "id": 8,
+    "nama": "Kursi Gaming",
+    "harga": 120000,
+    "img": "/img8.jpg"
+  },
+  
+  {
+    "id": 9,
+    "nama": "Kursi Pendek",
+    "harga": 120000,
+    "img": "/img9.jpg"
+  },
+  
+  {
+    "id": 10,
+    "nama": "Kursi Karet",
+    "harga": 120000,
+    "img": "/img10.jpg"
+  },
+  
+  {
+    "id": 11,
+    "nama": "Kursi Kerja",
+    "harga": 120000,
+    "img": "/img11.jpg"
+  },  
+  
+  {
+    "id": 12,
+    "nama": "Kursi Kayu",
+    "harga": 120000,
+    "img": "/img12.jpg"
+  },
+  
+  {
+    "id": 13,
+    "nama": "Kursi Remote",
+    "harga": 120000,
+    "img": "/img13.jpg"
+  },
+  
+  {
+    "id": 14,
+    "nama": "Kursi Plastik",
+    "harga": 120000,
+    "img": "/img13.jpg"
+  }
+]

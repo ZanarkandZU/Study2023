@@ -1,0 +1,182 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  background-color: #222222;
+  overflow: hidden;
+}
+
+.conten {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111111;
+  height: 3rem;
+}
+
+.conten .search {
+  display: flex;
+  column-gap: 12px;
+}
+
+.btnPlus,
+.btnMinus {
+  background-color: #eaeaea;
+  color: white;
+  height: 25px;
+  width: 50px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+
+.search input {
+  outline: none;
+  color: white;
+}
+
+.conten .openShop {
+  background-color: red;
+  color: white;
+  height: 25px;
+  width: 50px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+#wrapChild {
+  overflow: scroll;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(12px);
+  background: transparent;
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+#wrapChild.wrapChild {
+  width: 0;
+  opacity: 0;
+}
+
+.cardChild {
+  position: fixed;
+  height: 100%;
+  width: 80%;
+  background-color: #eeeee1;
+  right: 0;
+}
+
+
+.ull {
+  display: flex;
+  flex-direction: column-reverse;
+  height: auto;
+  padding-bottom: 3rem;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: skyblue;
+  padding: 5px;
+  height: 3rem;
+}
+
+.infoItem {
+  height: auto;
+  width: 7rem;
+}
+
+.infoItem p {
+  font-size: 10px;
+}
+.card p {
+  font-size: 12px;
+  font-weight: bolder;
+}
+.countItem {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.countItem button {
+  width: 20px;
+  height: 15px;
+  background-color: blanchedalmond; 
+  font-weight: bolder;
+}
+.countItem h3 {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  width: 2.5rem;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper .wrap {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 40rem;
+  overflow: scroll;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #eeeee1;
+  margin: 10px;
+  height: 12rem;
+  width: 9rem;
+  border-radius: 10px;
+  gap: 5px;
+  opacity: 1;
+  transition: all 0.5;
+}
+
+.card img {
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.card .btn {
+  display: flex;
+  width: 90%;
+}
+
+.btn button {
+  width: 100%;
+  height: 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  color: white;
+  background-color: green;
+  text-align: center;
+}
+
+.btnCheck {
+  display: block;
+}
