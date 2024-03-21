@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: console;
+    }
+
+    section {
+      width: 100%;
+      height: 100%;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #19172e;
+      padding: 40px;
+      position: relative;
+    }
+
+    section::before {
+      content: '';
+      position: absolute;
+      top: 29%;
+      right: 20%;
+      border-radius: 10px;
+      width: 100px;
+      height: 100px;
+      background: linear-gradient(#f9d924, #ff2c24);
+      animation: animate 5s ease-in-out infinite;
+    }
+
+    section::after {
+      content: '';
+      position: absolute;
+      bottom: 32%;
+      left: 20%;
+      border-radius: 10px;
+      width: 70px;
+      height: 70px;
+      background: linear-gradient(#01d6ff, #0f24f9);
+      animation: animate 5s ease-in-out infinite;
+      animation-delay: -2.5s;
+    }
+
+    @keyframes animate {
+
+      0%,
+      100% {
+        transform: translateY(16px);
+      }
+
+      50% {
+        transform: translateY(-16px);
+      }
+    }
+
+    .clock {
+      position: relative;
+      width: 100%;
+      height: 120px;
+      background: rgba(255, 255, 255, 0.05);
+      box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(20px);
+    }
+
+    .clock .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    .clock .container h4 {
+      font-size: 2.50rem;
+      color: #f3f3f3;
+    }
+
+    .clock .container h4:nth-child(odd) {
+      padding: 5px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.04);
+      box-shadow: 0px 14px 24px rgba(0, 0, 0, 0.2);
+      margin: 0 8px;
+    }
+  </style>
+  <title>clockDown</title>
+</head>
+
+<body>
+  <section>
+    <div class="clock">
+      <div class="container">
+        <h4 id="hours">00</h4>
+        <h4 class="dot">:</h4>
+        <h4 id="minute">00</h4>
+        <h4 class="dot">:</h4>
+        <h4 id="second">00</h4>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
